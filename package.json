@@ -1,0 +1,30 @@
+{
+  "name": "meeting-transcript",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "meeting-transcript": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "meeting",
+    "transcript",
+    "whisper",
+    "openai",
+    "audio",
+    "video"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "CLI tool to process meeting videos, extract audio, and generate transcripts and summaries using OpenAI Whisper",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.6.3",
+    "openai": "^4.28.4",
+    "ora": "^8.2.0"
+  }
+}
